@@ -11,16 +11,39 @@ from googletrans import Translator
 import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3, tempfile, glob, shutil, unicodedata, goslate
 
 cl = LINETCR.LINE()
-cl.login(token="Ep517u38ht1fhVxVA7T4.rAX10a6MHCMwuEeiTMBera.JO2xjzngvnK7YlmBOJcQhzAcVk5L+EDdH7EyU2nSKds=")
+cl.login(token="")
 cl.loginResult()
 
+ki = LINETCR.LINE()
+ki.login(token="")
+ki.loginResult()
 
+ki2 = LINETCR.LINE()
+ki2.login(token="")
+ki2.loginResult()
+
+ki3 = LINETCR.LINE()
+ki3.login(token="")
+ki3.loginResult()
+
+ki4 = LINETCR.LINE()
+ki4.login(token="")
+ki4.loginResult()
+
+ki5 = LINETCR.LINE()
+ki5.login(token="")
+ki5.loginResult()
+
+ki6 = LINETCR.LINE()
+ki6.login(token="")
+ki6.loginResult()
 
 print "SELFBOT\nSUCCES LOGIN\nSELAMAT MENGGUNAKANYA KAWAN"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""(=Vipro BOT=)
+helpMessage ="""(=PHANTOM GHOST=)
+
   ✰ Me
   ✰ Add
   ✰ Cn "text"
@@ -109,19 +132,21 @@ helpMessage ="""(=Vipro BOT=)
   ★ Prolink:on/off
   ★ Proinvite:on/off
   ★ Procancel:on/off
-(╚••Vipro BOT••╝)
+
+
+(╚••PHANTOM GHOST••╝)
 """
 helo="""SILAHKAN GUNAKAN BOT NYA .JIKA KAMU MAU TAMBAHIN ATAU EDIT LAGI SCRIPT NYA SILAHKN
 TAPI TOLONG HARGAI SAYA UNTUK TIDAK MERUBAH LEBEL PRANKBOTS DAN AUTO ADD ATAU AUTO LIKE TERIMAKASIH :D"""
 
-KAC=[cl]
+KAC=[cl.ki.ki2.ki3.ki4.ki5.ki6]
 mid = cl.getProfile().mid
-#kimid = ki.getProfile().mid
-#ki2mid = ki2.getProfile().mid
-#ki3mid = ki3.getProfile().mid
-#ki4mid = ki4.getProfile().mid
-#ki5mid = ki5.getProfile().mid
-#ki6mid = ki6.getProfile().mid
+kimid = ki.getProfile().mid
+ki2mid = ki2.getProfile().mid
+ki3mid = ki3.getProfile().mid
+ki4mid = ki4.getProfile().mid
+ki5mid = ki5.getProfile().mid
+ki6mid = ki6.getProfile().mid
 Bots=[mid]
 admsa = "uda936836a9869eb86ec8ab992a4e8979"
 
