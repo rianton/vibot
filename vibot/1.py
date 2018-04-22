@@ -139,7 +139,7 @@ helpMessage ="""(=PHANTOM GHOST=)
 helo="""SILAHKAN GUNAKAN BOT NYA .JIKA KAMU MAU TAMBAHIN ATAU EDIT LAGI SCRIPT NYA SILAHKN
 TAPI TOLONG HARGAI SAYA UNTUK TIDAK MERUBAH LEBEL PRANKBOTS DAN AUTO ADD ATAU AUTO LIKE TERIMAKASIH :D"""
 
-KAC=[cl.ki.ki2.ki3.ki4.ki5.ki6]
+KAC=[cl,ki,ki2,ki3,ki4,ki5,ki6]
 mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
@@ -147,8 +147,8 @@ ki3mid = ki3.getProfile().mid
 ki4mid = ki4.getProfile().mid
 ki5mid = ki5.getProfile().mid
 ki6mid = ki6.getProfile().mid
-Bots=[mid]
-admsa = "uda936836a9869eb86ec8ab992a4e8979"
+Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid]
+admsa = "u67acbba40f5d7983bd60c200e92456e9"
 
 wait = {
     'contact':False,
@@ -157,17 +157,10 @@ wait = {
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
-    'message':""" 💥🔥【тнanĸѕ ғor add мe】🔥💥
-                              😎
-                         🖕🏻👕👊🏻
-                              👖
-                              👢
-          💥🔥AUTO ADD FRIEND🔥💥
-""",
+    'message':""" 💥🔥【тнanĸѕ ғor add мe】🔥""",
     "lang":"JP",
     "comment1":"""{AUTO LIKE BY}
-         VIPRO
-""",
+      PHANTOM GHOST""",
     "commentOn":False,
     "likeOn":True,
     "commentBlack":{},
